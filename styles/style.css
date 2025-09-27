@@ -24,22 +24,38 @@
 
 }
 
-.menu {
+.header-menu {
+
+}
+
+.header__links-list {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
 
-.menu-item {
+.header__links-list-item {
   text-transform: lowercase;
   list-style: circle;  
 }
 
-.menu-item-first {
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
-.logo {
+.header__link {
+
+}
+
+.header__link_active {
+
+}
+
+.header__logo-image {
+
+}
+
+.header__logo {
   display: block;
   width: 148px;
   height: 105px;
@@ -47,9 +63,17 @@
 }
 
 .address {
-  width: 240px;
-  height: 98px;
-  margin-right: 40px;
+
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
   justify-self: end;
   list-style: none;
+}
+
+.header__address li {
+    align-items: flex-start;
 }
