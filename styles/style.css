@@ -49,4 +49,7 @@
 .address {
   width: 240px;
   height: 98px;
+  margin-right: 40px;
+  justify-self: end;
+  list-style: none;
 }
