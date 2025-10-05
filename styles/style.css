@@ -169,7 +169,12 @@
 .card-link {
   display: block;
   height: 100%;
-  text-decoration-color: #fff;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.card-link .card__text {
+  text-decoration: none;
 }
 
 .card {
@@ -197,6 +202,7 @@
   margin: 0px 40px 33px;
   height: 100%;
   align-content: flex-end;
+  text-decoration: none;
 }
 
 .lots__look-more-link {
@@ -279,7 +285,7 @@
 
 .footer {
   margin-top: 183px;
-  margin-bottom: 26px;
+  margin-bottom: 85px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
